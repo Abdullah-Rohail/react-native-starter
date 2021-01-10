@@ -1,0 +1,20 @@
+Enable Virtualization in BIOS
+To check virtualization status check performance tab in task manager
+
+Install AMD or Hamx acceleration to use AVD virtual device android studio depending on your os.
+
+npx react-native run-android to start app and launch virtual device
+if you get InvokError upgrade gradle version inside your project dir path "android/gradle/gradle-wrapper.properties"
+from 6.2 to 6.3
+
+Bug in recent vs code versions for linting with flow
+to resolve
+Simply go to VS Code >>File>>Preferences>>Settings >> go to javascript(or search javascript and scroll down)>validate> enable/disable >>disable or uncheck
+"javascript.validate.enable": false
+
+
+PACKAGES
+npm i react-native-vector-icons
+create link for icons with assets
+npx react-native link react-native-vector-icons
+npm i uuid4
